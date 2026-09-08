@@ -38,8 +38,8 @@ const (
 	// reminderSuppressed 是静音策略的诚实终态：没有发出蜂鸣命令，
 	// 因此也永远不会有该命令的回执（区别于 pending/failed）。
 	reminderSuppressed = "suppressed"
-	sourceManual        = "manual"
-	sourceSchedule      = "schedule"
+	sourceManual       = "manual"
+	sourceSchedule     = "schedule"
 )
 
 // keyPressEvent is the event type delivered by the key@1 capability. A key
